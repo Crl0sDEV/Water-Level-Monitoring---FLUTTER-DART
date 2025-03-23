@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187600160372",
+    "project_id": "push-notification-v2-cf040",
+    "storage_bucket": "push-notification-v2-cf040.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187600160372:android:d6abcc89c38232197d7321",
+        "android_client_info": {
+          "package_name": "com.example.water_level_monitoring_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSW3m568Tf4iDwr9Ebmxnewgv_GY1gIBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
