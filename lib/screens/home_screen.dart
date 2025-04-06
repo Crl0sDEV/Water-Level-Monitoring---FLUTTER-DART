@@ -287,9 +287,9 @@ class HomeScreenState extends State<HomeScreen> {
 
   Color _getWaterLevelColor(double? level) {
     if (level == null) return Colors.grey;
-    if (level >= 15) {
+    if (level >= 3) {
       return Colors.red;
-    } else if (level >= 6) {
+    } else if (level >= 2) {
       return Colors.orange;
     } else {
       return Colors.amber;

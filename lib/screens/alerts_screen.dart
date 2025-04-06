@@ -38,7 +38,7 @@ class AlertsScreenState extends State<AlertsScreen> {
       final response = await _supabase
           .from('water_levels')
           .select()
-          .gte('water_level', 15)
+          .gte('water_level', 3)
           .order('last_updated', ascending: false);
 
       setState(() {
@@ -142,7 +142,7 @@ class AlertsScreenState extends State<AlertsScreen> {
                                           ),
                                           const SizedBox(height: 4),
                                           Text(
-                                            'Level: ${data['water_level']} Centimeters',
+                                            'Level: ${data['water_level']} Meters',
                                             style: Theme.of(context)
                                                 .textTheme
                                                 .bodyMedium,
